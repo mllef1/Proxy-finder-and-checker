@@ -13,4 +13,4 @@ First install this so you can try to use the proxy
 
 Then execute
 
-```python3 proxycheck.py```
+```python proxycheck.py```
