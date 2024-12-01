@@ -1,6 +1,7 @@
 # Proxy-finder-and-checker
 Finds proxies for you and checks for you
 
+This was tested on a linux machine you may have errors if you are using windows
 
 How to use this tool
 
