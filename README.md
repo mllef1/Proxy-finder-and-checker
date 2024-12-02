@@ -1,5 +1,5 @@
 # Proxy-finder-and-checker
-Finds proxies for you and checks for you
+Finds socks5 proxies for you and checks for you
 
 This was tested on a linux machine you may have errors if you are using windows
 
