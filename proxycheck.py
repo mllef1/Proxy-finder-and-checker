@@ -11,6 +11,8 @@ def clear():
 	else:
 		os.system('clear')
 
+
+''' this was to make sure the user would have the needed libraries
 try:
 	os.system("pip install requests[socks]") # needed to use socks proxies
 	os.system("pip install time") # time
@@ -18,7 +20,7 @@ try:
 	clear()
 except ImportError as e:
     print("Find a way to run this command: pip install 'requests[socks]'") # if the thing fucks up
-
+'''
 
 
 
@@ -89,14 +91,16 @@ def get_list(line):
 	try:
 		getproxy = requests.get(line)
 		proxy_list.write(getproxy.text)
-	except:
+		
+	except Exception as e:
 		pass
 
 for line in socks5:
 	time.sleep(0.35)
 	counter[counter_item] = "+"
-	threading.Thread(target=get_list, args=(line,))
+	thread = threading.Thread(target=get_list, args=(line,))
 	counter_item += 1
+	thread.start()
 	print(f"Completed: [{''.join(counter)}]", end='\r')
 proxy_list.close()
 
