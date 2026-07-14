@@ -8,10 +8,10 @@ Finds socks5 proxies for you and checks for you
 
 
 <br><br>
-<hr>
 
 
-<marquee><h3>Latest update: </h3></marquee>
+
+<h3>Latest update: </h3>
 
 <p>Added a source very good source. Gets the most recent proxies from
 checkerproxy.net</p>
@@ -21,7 +21,7 @@ checkerproxy.net</p>
 <p>Previous updates were not documented</p>
 
 <br><br>
-<hr>
+
 
 <h2>Guide</h2>
 First install this so you can try to use the proxy
