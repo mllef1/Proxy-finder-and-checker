@@ -13,9 +13,10 @@ Finds socks5 proxies for you and checks for you
 
 <h3>Latest update: </h3>
 
+<h6 style="color:gray;">July 14</h6>
 <p>Added a source very good source. Gets the most recent proxies from
 checkerproxy.net</p>
-<h6 style="color:gray;">July 14</h6>
+
 <hr>
 
 <p>Previous updates were not documented</p>
