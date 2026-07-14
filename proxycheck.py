@@ -29,6 +29,7 @@ thread_amm = int(input("Ammount of threads you want [pick based on how fast your
 
 #big ass list of links, add your links to the list
 socks5 = [
+	"https://github.com/RioMMO/ProxyFree/blob/main/SOCKS5.txt",
 	"https://raw.githubusercontent.com/monosans/proxy-list/main/proxies_anonymous/socks5.txt",
 	"https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt",
 	"https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt",
@@ -74,6 +75,8 @@ socks5 = [
 	"https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5",
 	"https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all&simplified=true",
 	"http://worm.rip/socks5.txt",
+	"https://raw.githubusercontent.com/xyzs996/free-proxy-health-list/main/proxies/protocols/socks5/data.txt",
+	"https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks5.txt",
 ]
 
 print("Gathering SOCKS5 proxies, this will only take a few seconds")
