@@ -190,7 +190,7 @@ def proxy_check(unchecked_proxy):
 		response = requests.get(
 		    'https://google.com', # you can set this to anything you want
 		    proxies=unc_proxy,
-		    timeout=20,
+			timeout=10, #the lower this is the faster the proxies
 
 		)
 
