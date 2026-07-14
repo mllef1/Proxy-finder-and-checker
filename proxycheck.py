@@ -206,7 +206,7 @@ def proxy_check(unchecked_proxy):
 			proxies=unc_proxy,
 	    	timeout=20,
 
-		)
+		) #the proxy is used for this one to make sure it doesnt break after one request
 
 
 		ipjson = getloc.json()
