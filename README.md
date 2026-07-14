@@ -7,7 +7,7 @@ Finds socks5 proxies for you and checks for you
 <p style="color:green;">Should work on both windows and linux</p>
 
 <h2>Demonstration: </h2>
-<iframe href="https://youtu.be/5SraF4MQTD8"></iframe>
+[Youtube](https://youtu.be/5SraF4MQTD8)
 <br><br>
 
 
