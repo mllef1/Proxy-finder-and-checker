@@ -7,10 +7,21 @@ Finds socks5 proxies for you and checks for you
 <p style="color:green;">Should work on both windows and linux</p>
 
 
+<br><br>
+<hr>
 
 
+<h3><marquee>Latest update: </marquee></h3>
 
+<p>Added a source very good source. Gets the most recent proxies from
+checkerproxy.net</p>
+<h6 style="color:gray;"></h6>
+<hr>
 
+<p>Previous updates were not documented</p>
+
+<br><br>
+<hr>
 
 <h2>Guide</h2>
 First install this so you can try to use the proxy
