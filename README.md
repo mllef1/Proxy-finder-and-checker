@@ -14,13 +14,10 @@ https://youtu.be/5SraF4MQTD8
 
 <h3>Latest update: </h3>
 
-<h6 style="color:gray;">July 14</h6>
-<p>Added a source very good source. Gets the most recent proxies from
-checkerproxy.net</p>
+<h6 style="color:gray;">October 30</h6>
+<p>Fixed the good source api link, they changed it. And it gets from the past 5 days from that source since they provide good proxies.</p>
 
 <hr>
-
-<p>Previous updates were not documented</p>
 
 <br><br>
 
