@@ -2,7 +2,7 @@ import requests
 import threading
 import time
 import os
-from datetime import date #for the new source that has good proxies, at line 87
+from datetime import date, timedelta #for the new source that has good proxies, at line 87
 
 #clear your screen so it looks all neat
 def clear():
@@ -79,7 +79,7 @@ socks5 = [
 	"https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks5.txt",
 ]
 
-print("Gathering SOCKS5 proxies, this will only take a few seconds")
+#print("Gathering SOCKS5 proxies, this will only take a few seconds")
 
 
 proxy_list = open("socks5.txt" , "a")
@@ -89,16 +89,23 @@ proxy_list = open("socks5.txt" , "a")
 
 #get fresh proxies
 
-good_proxies = requests.get("https://api.checkerproxy.net/v1/landing/archive/" + str(date.today()))
+print("Gathering good proxies first")
 
-good_proxies = good_proxies.json()
+for i in range(6):
+	try:
+		print(f"{str(i)}/5", end="\r")
+		good_proxies = requests.get("https://checkerproxy.net/v1/landing/archive/" + str(date.today() - timedelta(days=i)))
+		
+		good_proxies = good_proxies.json()
 
-for proxy in good_proxies['data']['proxyList']:
-	proxy_list.write(proxy)
+		for proxy in good_proxies['data']['proxyList']:
+			proxy_list.write(proxy)
+
+	except:
+		print("Error: Could not get good proxies")
 
 
-
-
+print("Now the shitty ones")
 
 #for every line in the list of links, try to open a link and if it works put the content in a file
 counter = []
